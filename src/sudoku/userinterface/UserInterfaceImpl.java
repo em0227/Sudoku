@@ -16,12 +16,12 @@ import javafx.scene.text.Text;
 import javafx.stage.Stage;
 import sudoku.constants.GameState;
 import sudoku.problemdomain.Coordinates;
-import sudoku.problemdomain.SudukoGame;
+import sudoku.problemdomain.SudokuGame;
 
 import java.awt.*;
 import java.util.HashMap;
 
-import static sudoku.problemdomain.SudukoGame.GRID_BOUNDARY;
+import static sudoku.problemdomain.SudokuGame.GRID_BOUNDARY;
 
 public class UserInterfaceImpl implements IUserInterfaceContract.View, EventHandler<KeyEvent> {
 
@@ -214,7 +214,7 @@ public class UserInterfaceImpl implements IUserInterfaceContract.View, EventHand
 
     // not too sure what this method is for
     @Override
-    public void updateBoard(SudukoGame game) {
+    public void updateBoard(SudokuGame game) {
         for (int xIndex = 0; xIndex < GRID_BOUNDARY; xIndex++) {
             for (int yIndex = 0; yIndex < GRID_BOUNDARY; yIndex++) {
                 SudokuTextField tile = textFieldCoordinates.get(new Coordinates(xIndex, yIndex));

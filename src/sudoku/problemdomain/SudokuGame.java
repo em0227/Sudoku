@@ -4,13 +4,13 @@ import sudoku.constants.GameState;
 
 import java.io.Serializable;
 
-public class SudukoGame implements Serializable {
+public class SudokuGame implements Serializable {
     private final GameState gameState;
     private final int[][] gridState;
 
     public static final int GRID_BOUNDARY = 9;
 
-    public SudukoGame(GameState gameState, int[][] gridState) {
+    public SudokuGame(GameState gameState, int[][] gridState) {
         this.gameState = gameState;
         this.gridState = gridState;
     }

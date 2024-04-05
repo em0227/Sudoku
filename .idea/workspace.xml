@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94056a03-3b73-4020-a22b-690839972875" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/sudoku/comutationlogic/GameGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sudoku/comutationlogic/SudokuSolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sudoku/comutationlogic/SudokuUtilities.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sudoku/userinterface/logic/ControlLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sudoku/userinterface/logic/ControlLogic.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

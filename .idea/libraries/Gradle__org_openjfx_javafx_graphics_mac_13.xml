@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.openjfx:javafx-graphics:mac:13">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.openjfx/javafx-graphics/13/d6b0cddb2d9f5c46cf78365b3683b147981321e0/javafx-graphics-13-mac.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.openjfx/javafx-graphics/13/d407d8267c270f775482a3e05fef7d857b824b47/javafx-graphics-13-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
